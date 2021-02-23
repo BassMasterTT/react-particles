@@ -5,15 +5,19 @@ import Particles from 'react-particles-js';
 function App() {
   return (
     <div>
-      <div className="scale-in-center" id="welcome">
-        <h1>Welcome</h1>
+      <div class="hero_title" id="welcome">
+        <h1>
+          Hi, my name is <span class="name">Tibor Toth</span>
+          <br />
+          I'm the Developer <span class="you">You </span>need
+        </h1>
       </div>
       <Particles
         id="particles-js"
         params={{
           particles: {
             number: {
-              value: 80,
+              value: 40,
               density: {
                 enable: true,
                 value_area: 800,
@@ -38,7 +42,7 @@ function App() {
               },
             },
             opacity: {
-              value: 0.5,
+              value: 0.7,
               random: false,
               anim: {
                 enable: false,
@@ -48,7 +52,7 @@ function App() {
               },
             },
             size: {
-              value: 4,
+              value: 6,
               random: true,
               anim: {
                 enable: true,
@@ -66,9 +70,9 @@ function App() {
             },
             move: {
               enable: true,
-              speed: 2,
+              speed: 3,
               direction: 'none',
-              random: true,
+              random: false,
               straight: false,
               out_model: 'out',
               bounce: false,
@@ -94,7 +98,7 @@ function App() {
             },
             modes: {
               grab: {
-                distance: 400,
+                distance: 140,
                 line_linked: {
                   opacity: 1,
                 },

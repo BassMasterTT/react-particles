@@ -1,9 +1,40 @@
-body {
-    margin: 0;
+* {
+  margin: 0;
 }
 
-
 #particles-js {
-    background: #fff;
-    height: 100vh;
+  position: relative;
+  background: #fff;
+  height: 100vh;
+}
+
+.hero_title {
+  background-color: rgb(118, 53, 221);
+  margin: 0;
+
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: 100;
+  color: #000;
+  font-size: 2.5rem;
+}
+
+.name {
+  color: #424deb;
+}
+
+.you {
+  color: red;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
