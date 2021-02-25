@@ -1,17 +1,33 @@
 import React from 'react';
 import './App.css';
 import Particles from 'react-particles-js';
+import Tilty from 'react-tilty';
 
 function App() {
   return (
     <div>
-      <div class="hero_title" id="welcome">
-        <h1>
-          Hi, my name is <span class="name">Tibor Toth</span>
-          <br />
-          I'm the Developer <span class="you">You </span>need
-        </h1>
+      <div class="card" id="welcome">
+        <div className="container">
+          <Tilty
+            max={20}
+            reverse={false}
+            speed={200}
+            glare={false}
+            giroscope={true}
+            perspective={200}
+            reset={true}
+            scale={1.2}
+          >
+            <h1 class="name_tibor">
+              Hi, my name is <span class="name">TIBOR</span>
+            </h1>
+            <h1 class="developer">
+              I'm the Developer <span class="you">YOU </span>need
+            </h1>
+          </Tilty>
+        </div>
       </div>
+
       <Particles
         id="particles-js"
         params={{
@@ -52,7 +68,7 @@ function App() {
               },
             },
             size: {
-              value: 4,
+              value: 6,
               random: true,
               anim: {
                 enable: true,
