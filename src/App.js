@@ -52,7 +52,7 @@ function App() {
               },
             },
             size: {
-              value: 6,
+              value: 4,
               random: true,
               anim: {
                 enable: true,
