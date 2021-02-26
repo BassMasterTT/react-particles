@@ -17,7 +17,7 @@ function App() {
             giroscope={true}
             perspective={200}
             reset={true}
-            scale={1.2}
+            scale={1.4}
           >
             <h1 className="name_tibor">
               Hi, my name is <span className="name">TIBOR</span>

@@ -4,10 +4,19 @@ body {
 }
 
 .lookUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 0;
-  padding: 0;
+  top: 2%;
+  left: 50%;
+
+  position: absolute;
+    transform: translate(-50%, 0%);
+    font-size: x-large ;
 }
 
 p {
-  color: black;
+  color: brown;
 }
