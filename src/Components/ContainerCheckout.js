@@ -4,8 +4,8 @@ import './ContainerCheckout.css';
 function ContainerCheckout() {
   return (
     <div>
-      <div class="card">
-        <div className="container">
+      <div class="card" id="firstCard">
+        <div className="container" id="firstContainer">
           <p>Check out the cool tilf effect</p>
         </div>
       </div>

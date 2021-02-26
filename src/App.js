@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Particles from 'react-particles-js';
 import Tilty from 'react-tilty';
+import ContainerCheckout from './Components/ContainerCheckout'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             </h1>
           </Tilty>
         </div>
+        <ContainerCheckout/>
       </div>
 
       <Particles

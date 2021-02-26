@@ -1,10 +1,10 @@
-.card {
+body {
+    padding: 0px;
     margin: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    align-items: flex-end;
-    height: 50px;
+}
+
+#firstContainer {
+    
 }
 
 
