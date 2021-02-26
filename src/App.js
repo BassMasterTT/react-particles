@@ -27,7 +27,7 @@ function App() {
             </h1>
           </Tilty>
         </div>
-        <ContainerCheckout/>
+        <ContainerCheckout />
       </div>
 
       <Particles
