@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Particles from 'react-particles-js';
 import Tilty from 'react-tilty';
-import ContainerCheckout from './Components/ContainerCheckout'
+import ContainerCheckout from './Components/ContainerCheckout';
+import Button from './Components/Button'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           </Tilty>
         </div>
         <ContainerCheckout />
+        <Button/>
       </div>
 
       <Particles

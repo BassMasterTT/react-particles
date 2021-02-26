@@ -53,7 +53,7 @@ body {
 }
 
 .you {
-  color: #fc0563e7 ;
+  color: hsla(337, 98%, 50%, 0.906) ;
 }
 
 @media screen and (max-width: 600px) and (min-width: 300px) 
