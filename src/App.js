@@ -7,7 +7,7 @@ import ContainerCheckout from './Components/ContainerCheckout'
 function App() {
   return (
     <div>
-      <div class="card" id="welcome">
+      <div className="card" id="welcome">
         <div className="container">
           <Tilty
             max={20}
@@ -19,11 +19,11 @@ function App() {
             reset={true}
             scale={1.2}
           >
-            <h1 class="name_tibor">
-              Hi, my name is <span class="name">TIBOR</span>
+            <h1 className="name_tibor">
+              Hi, my name is <span className="name">TIBOR</span>
             </h1>
-            <h1 class="developer">
-              I'm the Developer <span class="you">YOU </span>need
+            <h1 className="developer">
+              I'm the Developer <span className="you">YOU </span>need
             </h1>
           </Tilty>
         </div>
