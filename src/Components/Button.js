@@ -1,15 +1,14 @@
-import React from 'react'
-import './Button.css'
+import React from 'react';
+import './Button.css';
 
 function Button() {
-    return (
-        <div>
-        <button >
-            <p className='more'>Let's go</p>
-        </button>
-            
-        </div>
-    )
+  return (
+    <div>
+      <button>
+        <p className="more">Let's go</p>
+      </button>
+    </div>
+  );
 }
 
-export default Button
+export default Button;
