@@ -1,0 +1,16 @@
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  position: absolute;
+  top: 120%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.sidebar {
+    text-align: center;
+}

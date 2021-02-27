@@ -3,38 +3,38 @@ import './App.css';
 import Particles from 'react-particles-js';
 import Tilty from 'react-tilty';
 import ContainerCheckout from './Components/ContainerCheckout';
-import Button from './Components/Button'
-import Page2 from './Components/Page2'
+import Button from './Components/Button';
+import Page2 from './Components/Page2';
+import ProjectCard from './Components/ProjectCard';
 
 function App() {
   return (
     <div>
-      <div>
-        <div className="card" id="welcome">
-          <div className="container">
-            <Tilty
-              max={20}
-              reverse={false}
-              speed={200}
-              glare={false}
-              giroscope={true}
-              perspective={200}
-              reset={true}
-              scale={1.4}
-            >
-              <h1 className="name_tibor">
-                Hi, my name is <span className="name">TIBOR</span>
-              </h1>
-              <h1 className="developer">
-                I'm the Developer <span className="you">YOU </span>need
-              </h1>
-            </Tilty>
-          </div>
-          <ContainerCheckout />
-          <Button />
+      <div className="card" id="welcome">
+        <div className="container">
+          <Tilty
+            max={20}
+            reverse={false}
+            speed={200}
+            glare={false}
+            giroscope={true}
+            perspective={200}
+            reset={true}
+            scale={1.4}
+          >
+            <h1 className="name_tibor">
+              Hi, my name is <span className="name">TIBOR</span>
+            </h1>
+            <h1 className="developer">
+              I'm the Developer <span className="you">YOU </span>need
+            </h1>
+          </Tilty>
         </div>
-        <Page2 />
+        <ContainerCheckout />
+        <Button />
       </div>
+      <Page2 />
+      <ProjectCard />
 
       <Particles
         id="particles-js"
