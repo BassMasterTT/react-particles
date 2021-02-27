@@ -4,12 +4,32 @@ import './ProjectCard.css';
 function ProjectCard() {
   return (
     <div>
-      <card className="projectCard">
-        <sidebar className="sidebar">
-          <h3>First Project</h3>
-        </sidebar>
-        <img src="././unsplashAPI.png" alt="unsplash"></img>
-      </card>
+      <div className="grid-container">
+        <div className="grid-item">
+          <h4>First Project</h4>
+          <img src="././unsplashAPI.png" alt="unsplash"></img>
+        </div>
+        <div className="grid-item">
+          <h4>Second Project</h4>
+          <img src="././unsplashAPI.png" alt="unsplash"></img>
+        </div>
+        <div className="grid-item">
+          <h4>Second Project</h4>
+          <img src="././unsplashAPI.png" alt="unsplash"></img>
+        </div>
+        <div className="grid-item">
+          <h4>Second Project</h4>
+          <img src="././unsplashAPI.png" alt="unsplash"></img>
+        </div>
+        <div className="grid-item">
+          <h4>Second Project</h4>
+          <img src="././unsplashAPI.png" alt="unsplash"></img>
+        </div>
+        <div className="grid-item">
+          <h4>Second Project</h4>
+          <img src="././unsplashAPI.png" alt="unsplash"></img>
+        </div>
+      </div>
     </div>
   );
 }
