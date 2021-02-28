@@ -1,20 +1,15 @@
 .grid-container {
-  /* margin: 0;
-    padding: 0; */
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 50px;
-  /* height: 100vh; */
   margin-right: 20px;
   left: 50%;
   transform: translate(-50%);
   top: 120%;
   width: 90%;
   position: absolute;
-  /* border-radius: 20px; */
   padding-bottom: 70px;
   margin-top: 40px;
-  /* margin-left: 10px; */
 }
 
 .grid-item {
