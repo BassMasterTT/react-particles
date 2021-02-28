@@ -4,7 +4,7 @@ import './Page2.css';
 function Page2() {
   return (
     <div className="projectsContainer">
-      <h1 className="projectsTitle">PROJECTS</h1>
+      <h1 className="projectsTitle" id='projects'>PROJECTS</h1>
     </div>
   );
 }

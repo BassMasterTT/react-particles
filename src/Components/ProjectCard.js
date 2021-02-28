@@ -7,7 +7,13 @@ function ProjectCard() {
       <div className="grid-container">
         <div className="grid-item">
           <h4>Infinite Scroll</h4>
-          <img src="././unsplashAPI.png" alt="unsplash"></img>
+          <a
+            href="https://bassmastertt.github.io/infinite-scroll/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="././unsplashAPI.png" alt="unsplash"></img>
+          </a>
           <p className="p">
             This project inplements the Unsplash API to generate an infinite
             scroll of beautiful high quality pictures. You can click on any of
@@ -16,8 +22,14 @@ function ProjectCard() {
           </p>
         </div>
         <div className="grid-item">
-          <h4>Joke Teller Web App</h4>
-          <img src="././joke.png" alt="joke"></img>
+          <h4>Joke Teller</h4>
+          <a
+            href="https://bassmastertt.github.io/joke-teller/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="././joke.png" alt="joke"></img>
+          </a>
           <p className="p">
             A project that was really fun to make. My website is presenting you
             a friendly robot that every time that you press the button it will
@@ -27,7 +39,13 @@ function ProjectCard() {
         </div>
         <div className="grid-item">
           <h4>Calculator</h4>
-          <img src="././calculator.png" alt="calculator"></img>
+          <a
+            href="https://bassmastertt.github.io/calculator/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="././calculator.png" alt="calculator"></img>
+          </a>
           <p className="p">
             A simple but beautiful calculator that works directly in your web
             browser. It was built using HTML, CSS and JavaScript. I used a
@@ -37,8 +55,14 @@ function ProjectCard() {
           </p>
         </div>
         <div className="grid-item">
-          <h4>Quote Generator </h4>
-          <img src="././quote.png" alt="quotes"></img>
+          <h4>Quotes </h4>
+          <a
+            href="https://bassmastertt.github.io/quote-generator/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="././quote.png" alt="quotes"></img>
+          </a>
           <p className="p">
             Some of the quotes are really profound. You can use this website to
             get as many quotes as you like, or maybe just one quote to let you
@@ -47,19 +71,36 @@ function ProjectCard() {
           </p>
         </div>
         <div className="grid-item">
-          <h4>NASA Pictures API</h4>
-          <img src="././NASA.png" alt="NASA Pictures"></img>
+          <h4>NASA Pictures</h4>
+          <a
+            href="https://bassmastertt.github.io/nasa-api-pictures/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="././NASA.png" alt="NASA Pictures"></img>
+          </a>
           <p className="p">
             I was always fascinated by planets, stars, galaxies, black holes and
             everything else related to the universe. So many questions and not
             so many certain answers. This website will feed you a huge amount of
-            amazing photos form the NASA API. Go take a look!
+            amazing photos from the NASA API. Go take a look!
           </p>
         </div>
         <div className="grid-item">
-          <h4>Second Project</h4>
-          <img src="././unsplashAPI.png" alt="unsplash"></img>
-          <p className="p"></p>
+          <h4>Paint Web App</h4>
+          <a
+            href="https://bassmastertt.github.io/paint-clone/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="././paintapp.png" alt="paintApp"></img>
+          </a>
+          <p className="p">
+            Fun web app to draw anything that you can imagine, implemented with
+            different color options, reset, erase, brush thickness, eraser
+            thickness, background color option, save and other functions. Just
+            have some fun with your kids or anyone that you would like.
+          </p>
         </div>
       </div>
     </div>

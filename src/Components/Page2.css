@@ -11,6 +11,7 @@
   height: 90vh;
   width: auto;
   position: absolute;
+  /* animation: mymove 5s 1; */
 }
 
 .projectsTitle {
@@ -20,3 +21,15 @@
   letter-spacing: 10px;
   margin-top: 0px;
 }
+
+/* @keyframes mymove {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+} */

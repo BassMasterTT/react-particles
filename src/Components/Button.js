@@ -5,7 +5,9 @@ function Button() {
   return (
     <div>
       <button>
-        <p className="more">Let's go</p>
+        <a id='buttonLink' href="#projects">
+          <p className="more">Let's go</p>
+        </a>
       </button>
     </div>
   );
