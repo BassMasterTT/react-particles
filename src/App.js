@@ -6,6 +6,7 @@ import ContainerCheckout from './Components/ContainerCheckout';
 import Button from './Components/Button';
 import Page2 from './Components/Page2';
 import ProjectCard from './Components/ProjectCard';
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       </div>
       <Page2 />
       <ProjectCard />
+      <Footer/>
 
       <Particles
         id="particles-js"
