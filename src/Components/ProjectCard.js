@@ -103,6 +103,11 @@ function ProjectCard() {
           </p>
         </div>
       </div>
+      <footer>
+        <div className="footerDiv">
+          <h1 className="h1footer">Let's get in touch</h1>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -1,17 +1,34 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
 .footerDiv {
-    box-sizing: border-box;
+  /* box-s/izing: border-box; */
   display: flex;
   flex-direction: column;
   text-align: center;
   position: absolute;
-  top: 310%;
-  width: 100vw;
+  /* padding: 20px; */
+  top: 300%;
   margin: 0;
-    height: 30vh;
+  height: 25vh;
   background-color: rgb(52, 58, 66);
+  /* z-index: 100; */
+width: 100vw;
 }
 
 .h1footer {
-    padding-top: 20px;
-    color: whitesmoke;
+  padding-top: 20px;
+  color: whitesmoke;
+}
+
+@media (max-width: 700px) {
+  .footerDiv {
+    display: flex;
+    flex-direction: column;
+    top: 620%;
+    width: 100vw;
+    position: absolute;
+  }
 }
