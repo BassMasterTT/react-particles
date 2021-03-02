@@ -7,9 +7,9 @@
   left: 50%;
   transform: translate(-50%);
   top: 110%;
-  border-top: 0px;
-  height: 90vh;
-  width: auto;
+  /* border-top: 0px; */
+  /* height: 90vh; */
+  /* width: auto; */
   position: absolute;
 }
 

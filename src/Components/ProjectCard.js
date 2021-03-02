@@ -101,13 +101,14 @@ function ProjectCard() {
             thickness, background color option, save and other functions. Just
             have some fun with your kids or anyone that you would like.
           </p>
+          <br/>
+          <br/>
+          <br/>
+          <div className="footerDiv">
+            <h1 className="h1footer">Let's get in touch</h1>
+          </div>
         </div>
       </div>
-      <footer>
-        <div className="footerDiv">
-          <h1 className="h1footer">Let's get in touch</h1>
-        </div>
-      </footer>
     </div>
   );
 }
