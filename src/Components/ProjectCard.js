@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProjectCard.css';
-import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 function ProjectCard() {
   return (
@@ -108,8 +108,17 @@ function ProjectCard() {
           <div className="footerDiv">
             <h1 className="h1footer">Let's get in touch</h1>
             <div className="fontAwesome">
-              <FaGithub className="awesomeIcon" href=""/>
+              <a
+                href="https://github.com/BassMasterTT"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub className="awesomeIcon" />
+              </a>
+
               <FaLinkedin className="awesomeIcon" />
+
+              
               <FaTwitter className="awesomeIcon" />
             </div>
           </div>

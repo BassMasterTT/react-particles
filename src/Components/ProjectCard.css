@@ -83,7 +83,7 @@ body {
   margin-bottom: 0;
 }
 
-.fontAwesome {
+.fontAwesome a {
   padding: 15px;
   color: whitesmoke;
 
