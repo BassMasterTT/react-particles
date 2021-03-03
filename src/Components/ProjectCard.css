@@ -9,7 +9,7 @@
   width: 90%;
   position: absolute;
   padding-bottom: 70px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .grid-item {
@@ -55,11 +55,8 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* justify-content: center; */
   position: absolute;
   padding-top: 5px;
-  /* bottom: 0px;
-  margin-bottom: 0px; */
   margin: 0;
   margin-bottom: 0;
   background: linear-gradient(
@@ -67,7 +64,6 @@ body {
     rgba(193, 82, 245, 0.95),
     rgba(109, 77, 252, 0.95)
   );
-  /* z-index: 100; */
   left: 50%;
   transform: translate(-50%);
   width: 100%;
@@ -77,7 +73,6 @@ body {
 }
 
 .h1footer {
-  /* padding-bottom: 20px; */
   color: whitesmoke;
   font-size: x-large;
   margin-bottom: 0;
@@ -93,42 +88,8 @@ body {
   cursor: pointer;
 }
 
-/* @media (m-width: 700px) {
-  .footerDiv {
-    display: flex;
-    flex-direction: column;
-    top: 620%;
-    width: 100vw;
-    position: absolute;
+@media screen and (max-width: 813px) {
+  .grid-container {
+    font-size: x-small;
   }
 }
-
-@media (min-width: 320px) {
-  .footerDiv {
-    top: 745%;
-  }
-}
-
-@media (min-width: 375px) {
-  .footerDiv {
-    top: 668%;
-  }
-}
-
-@media (min-width: 414px) {
-  .footerDiv {
-    top: 630%;
-  }
-}
-
-@media (min-width: 411px) {
-  .footerDiv {
-    top: 550%;
-  }
-}
-
-@media (min-width: 360px) {
-  .footerDiv {
-    top: 685%;
-  }
-} */

@@ -22,17 +22,32 @@ body {
   font-size: x-large;
 }
 
-@media screen and (max-width: 600px) and (min-width: 300px) {
+@media screen and (max-width: 680px) and (min-width: 300px) {
   .lookUp {
-    width: 90%;
+    width: 60%;
     font-size: 0.5rem;
+  }
+  p.checkP {
+    font-size: 0.9rem;
   }
 }
 
-@media screen and (max-width: 600px) and (min-width: 300px) {
+@media screen and (max-width: 812px) and (min-width: 450px) {
   .checkP {
     width: 95%;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (width: 320px) {
+  .checkP {
+    text-align: center;
+  }
+}
+
+@media screen and (width: 768px) {
+  .checkP {
     text-align: center;
   }
 }
