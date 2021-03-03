@@ -65,9 +65,9 @@ body {
   }
 }
 
-/* @media screen and (max-width: 813px) and (min-width: 800px) {
+@media screen and (min-width: 964px) {
   .container {
-    width: 50%;
-    font-size: x-small;
+    width: fit-content;
+    padding: 40px;
   }
-} */
+}

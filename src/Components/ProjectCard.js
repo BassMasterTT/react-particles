@@ -16,9 +16,9 @@ function ProjectCard() {
             <img src="././unsplashAPI.png" alt="unsplash"></img>
           </a>
           <p className="p">
-            This project inplements the Unsplash API to generate an infinite
+            This project implements the Unsplash API to generate an infinite
             scroll of beautiful high quality pictures. You can click on any of
-            them to find out details and to save the pictures in variuos sizes.
+            them to find out details and to save the pictures in various sizes.
             Try out the website and enjoy the mood these pictures give you.
           </p>
         </div>
@@ -50,7 +50,7 @@ function ProjectCard() {
           <p className="p">
             A simple but beautiful calculator that works directly in your web
             browser. It was built using HTML, CSS and JavaScript. I used a
-            gradient for the background and big buttons so you can clearly type
+            gradient for the background and big buttons, so you can clearly type
             on them. Ok, now it's your turn to use it and see where did you go
             over your budget this month.
           </p>
