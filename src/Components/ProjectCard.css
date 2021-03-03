@@ -62,7 +62,11 @@ body {
   margin-bottom: 0px; */
   margin: 0;
   margin-bottom: 0;
-  background-color: rgb(52, 58, 66);
+  background: linear-gradient(
+    to right,
+    rgba(193, 82, 245, 0.95),
+    rgba(109, 77, 252, 0.95)
+  );
   /* z-index: 100; */
   left: 50%;
   transform: translate(-50%);
@@ -77,6 +81,17 @@ body {
   color: whitesmoke;
   font-size: x-large;
   margin-bottom: 0;
+}
+
+.fontAwesome {
+  padding: 15px;
+  color: whitesmoke;
+
+}
+
+.awesomeIcon {
+  padding: 10px;
+  cursor: pointer;
 }
 
 /* @media (m-width: 700px) {
