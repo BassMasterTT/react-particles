@@ -115,11 +115,20 @@ function ProjectCard() {
               >
                 <FaGithub className="awesomeIcon" />
               </a>
-
-              <FaLinkedin className="awesomeIcon" />
-
-              
-              <FaTwitter className="awesomeIcon" />
+              <a
+                href="https://www.linkedin.com/in/tibor-t%C3%B3th-82a859159/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedin className="awesomeIcon" />
+              </a>
+              <a
+                href="https://twitter.com/tibi_toth"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaTwitter className="awesomeIcon" />
+              </a>
             </div>
           </div>
         </div>
